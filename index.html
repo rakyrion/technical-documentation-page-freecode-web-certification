@@ -1,0 +1,188 @@
+<DOCTYPE HTML>
+    <html lang="eng">
+      <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width , initial-scale:1" />
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+      </head>
+      <body>
+        <nav id="navbar">
+      
+        <header id="nav_header">
+          TFT Guia Principiantes
+        </header>
+          <ul id="ul_header">
+            <div class="div_li_nav"><li id="nav_li"><a class="nav-link" href="#Introducción">Introducción</a></div></li>
+            <div class="div_li_nav"><li><a class="nav-link" href="#Economía">Economía</a></li></div>
+            <div class="div_li_nav"><li><a class="nav-link" href="#Nivel_de_tu_minileyenda">Nivel de tu minileyenda</a></li></div>
+            <div class="div_li_nav"><li><a class="nav-link" href="#Sinergias">Sinergias</a></li></div>
+            <div class="div_li_nav"><li><a class="nav-link" href="#Ejemplo_de_composiciones">Ejemplo de composiciones</a></li></div>
+            <div class="div_li_nav"><li><a class="nav-link" href="#Referencias">Referencias </a></li>
+              </div>
+        </nav>
+        <main id="main-doc">
+          <section class="main-section" id="Introducción">
+            <header class="header.text">Introducción</header>
+            <p>
+              Teamfight Tactics (TFT) es un videojuego auto battler desarrollado y publicado por Riot Games.
+            </p>
+              <p>Consiste en formar un equipo de hasta 9 campeones (es posible tener un equipo mayor con ayuda de objetos especiales) y durar el máximo tiempo posible intentando ser el último con vida</p>
+              <p> La arena consta de hexágonos, donde los jugadores pueden estratégicamente colocar los campeones según avanzan las rondas. Cada ronda, la batalla automáticamente comienza con dos jugadores emparejados aleatoriamente o contra la IA. El número de campeones que queden al finalizar la batalla se verá reflejado en el daño que sufrirá el perdedor, teniendo en cuenta también el nivel de estos. </p>
+          </section>
+          <section class="main-section" id="Economía">
+            <header class="header.text">Economía</header>
+            <p> Los jugadores acumulan oro durante las rondas. Con este oro, se puede actualizar la tienda, comprar campeones o subir 4 de xp en el nivel.</p>
+            <p> Según el oro acumulado los jugadores obtienen un interés que le generará oro extra por ronda: </p>
+        <div class="div.code">
+            <code class="code">Si acabamos la ronda con 10 de oro -> Ganaremos 1 de oro extra 
+  Si acabamos la ronda con 20 de oro -> Ganaremos 2 de oro extra
+  Si acabamos la ronda con 30 de oro -> Ganaremos 3 de oro extra
+  Si acabamos la ronda con 40 de oro -> Ganaremos 4 de oro extra
+  Si acabamos la ronda con 50 de oro -> Ganaremos 5 de oro extra
+            </code>
+        </div>
+              
+          </section>
+          <section class="main-section" id="Nivel_de_tu_minileyenda">
+            <header class="header.text">Nivel de tu minileyenda</header>
+            <p> Del nivel que uno tenga dependerá el número de campeones que se puedan tener en el tablero, salvo algunas excepciones.
+            </p>
+            <p> Al final de cada ronda ganaremos experiencia:</p>
+        <div class="div.code">
+          <code class="code"> Experiencia final ronda + 2 = Experiencia inicio siguiente ronda    </code>
+        </div>
+            <p> La experiencia necesaria para subir de nivel la encontraremos en la siguiente tabla:
+            <ul>
+            <li> Nivel 2 -> 2 experiencia</li>
+            <li> Nivel 3 -> 4 experiencia </li>
+            <li> Nivel 4 -> 10 experiencia </li>
+            <li> Nivel 5 -> 20 experiencia </li>
+            <li> Nivel 6 -> 32 experiencia </li>
+            <li> Nivel 7 -> 46 experiencia </li>
+            <li> Nivel 8 -> 56 experiencia </li>
+            <li> Nivel 9 -> 80 experiencia </li>
+          </ul>
+          <p>Aumentar el nivel de nuestra minileyenda nos proporcionará la posibilidad de encontrar mejores fichas: </p>
+          <code>
+            <table>
+              <caption>Probabilidad según el nivel</caption>
+                <thead>
+                  <tr>
+                    <th>Nivel minileyenda</th>
+                    <th> % Prob. Común</th>
+                    <th> % Prob. Poco común</th>
+                    <th> % Prob. Rara</th>
+                    <th> % Prob. Épica</th>
+                    <th> % Prob. Legendaria</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                      <td class="nivel">1</td>
+                      <td .class="probcomun"> XX%</td>
+                      <td class="prob.poco_comun"> XX%</td>
+                      <td class="prob.rara">XX%</td>
+                      <td class="prob.epica">XX%</td>
+                      <td class="prob.legendaria">XX%</td>
+                    </tr>
+                    <tr>
+                      <td class="nivel">2</td>
+                      <td class="prob.comun"> XX%</td>
+                      <td class="prob.poco_comun"> XX%</td>
+                      <td class="prob.rara">XX%</td>
+                      <td class="prob.epica">XX%</td>
+                      <td class="prob.legendaria">XX%</td>
+                    </tr>
+                    <tr>
+                      <td class="nivel">3</td>
+                      <td class="prob.comun"> XX%</td>
+                      <td class="prob.poco_comun"> XX%</td>
+                      <td class="prob.rara">XX%</td>
+                      <td class="prob.epica">XX%</td>
+                      <td class="prob.legendaria">XX%</td>
+                    </tr>
+                    <tr>
+                      <td class="nivel">4</td>
+                      <td class="prob.comun"> XX%</td>
+                      <td class="prob.poco_comun"> XX%</td>
+                      <td class="prob.rara">XX%</td>
+                      <td class="prob.epica">XX%</td>
+                      <td class="prob.legendaria">XX%</td>
+                    </tr>
+                    <tr>
+                      <td class="nivel">5</td>
+                      <td class="prob.comun"> XX%</td>
+                      <td class="prob.poco_comun"> XX%</td>
+                      <td class="prob.rara">XX%</td>
+                      <td class="prob.epica">XX%</td>
+                      <td class="prob.legendaria">XX%</td>
+                    </tr>
+                    <tr>
+                      <td class="nivel">6</td>
+                      <td class="prob.comun"> XX%</td>
+                      <td class="prob.poco_comun"> XX%</td>
+                      <td class="prob.rara">XX%</td>
+                      <td class="prob.epica">XX%</td>
+                      <td class="prob.legendaria">XX%</td>
+                    </tr>
+                    <tr>
+                      <td class="nivel">7</td>
+                      <td class="prob.comun"> XX%</td>
+                      <td class="prob.poco_comun"> XX%</td>
+                      <td class="prob.rara">XX%</td>
+                      <td class="prob.epica">XX%</td>
+                      <td class="prob.legendaria">XX%</td>
+                    </tr>
+                    <tr>
+                      <td class="nivel">8</td>
+                      <td class="prob.comun"> XX%</td>
+                      <td class="prob.poco_comun"> XX%</td>
+                      <td class="prob.rara">XX%</td>
+                      <td class="prob.epica">XX%</td>
+                      <td class="prob.legendaria">XX%</td>
+                    </tr>
+                    <tr>
+                      <td class="nivel">9</td>
+                      <td class="prob.comun"> XX%</td>
+                      <td class="prob.poco_comun"> XX%</td>
+                      <td class="prob.rara">XX%</td>
+                      <td class="prob.epica">XX%</td>
+                      <td class="prob.legendaria">XX%</td>
+                    </tr>
+                </tbody>
+              </table>
+              </code>
+          </section>
+          <section class="main-section" id="Sinergias">
+            <header class="header.text">Sinergias</header>
+            <p> Los campeones poseen orígenes y clases, los cuales se deben combinar para obtener bonificaciones. Es importante tener el máximo número de sinergías activas para que nuestros campeones sean más poderosos aunque, en ocasiones será importante ignorar una sinergia para poder poner campeones más poderosos.</p>
+          </section>
+          <section class="main-section" id="Ejemplo_de_composiciones">
+            <header class="header.text">Ejemplo de composiciones</header>
+            <p> Para finalizar, vamos a ver algunas de las composiciones más fuertes hasta la fecha en el set 7 de TFT </p>
+            <div class="div.code"><code> 
+              <h2 class="h2titulo"> Tristana Carry </h2>
+  Necesitaremos tristana a 3 estrellas con objetos y acompañarlo de las sinergias cañoneros y una sinergia defensiva como guardianes o luchadores.
+              </code>
+            </div>
+            <div class="div.code">
+            <code>
+              <h2 class="h2titulo"> Swain Ragewind/Dragonmancer </h2>
+  Necesitaremos a Swain, preferiblemente 3 estrellas, con objetos y acompañarlo de Ragewind y Dragonmancer. Utilizaremos la mejora de Dragonmancer en Swain.
+            </code>
+            </div>
+            <div class="div.code">
+            <code>
+              <h2 class="h2titulo"> Jade Legends </h2>
+  Nuestros carrys serán Volibear y Anivia, cuya sinergia principal es Legends, por lo que tendremos que activarlo con el tercer Legend</p>
+  Acompañaremos la composición con Jades y Evokers.
+              </code>
+            </div>
+          </section>
+        <section class="main-section" id="Referencias">
+          <header class="header.text">Referencias</header>
+          <p> Este post es un trabajo de formación, por lo que las referencias utilizadas no son del todo ciertas. Algunos datos pueden no ser exactos o inventados </p>
+          </section>
+        </main>
+      </body>
+    </html>
